@@ -6,7 +6,7 @@ namespace StrackAuth\Rules;
  * {'category': 'column', '$entity_type_uuid': '1111111111', 'permission':'view', 'column_uuid':'123', 'column_code':'123'}
  */
 
-class ColumnRule extends ProjectRule
+class ColumnRule extends Rule
 {
     // 所有列
     const All = "*";
