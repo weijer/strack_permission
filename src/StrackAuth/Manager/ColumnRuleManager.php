@@ -1,6 +1,9 @@
 <?php
 namespace StrackAuth\Manager;
 
+use StrackAuth\Rules\Rule;
+use StrackAuth\Rules\ColumnRule;
+
 class ColumnRuleManager
 {
     protected $_rules;
