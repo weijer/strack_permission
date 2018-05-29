@@ -1,7 +1,7 @@
 <?php
-namespace Permission;
+namespace StrackAuth\Rules;
 
-/**
+/**s
  * 数据格式
  * {'category': 'column', '$entity_type_uuid': '1111111111', 'permission':'view', 'column_uuid':'123', 'column_code':'123'}
  */

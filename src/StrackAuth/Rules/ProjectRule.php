@@ -1,5 +1,5 @@
 <?php
-namespace Permission;
+namespace StrackAuth\Rules;
 
 /**
  *  数据格式

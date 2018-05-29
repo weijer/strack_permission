@@ -1,5 +1,8 @@
 <?php
-namespace Permission;
+namespace StrackAuth\Manager;
+
+use StrackAuth\Rules\Rule;
+use StrackAuth\Rules\ProjectRule;
 
 class ProjectRuleManager
 {

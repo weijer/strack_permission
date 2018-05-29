@@ -7,7 +7,7 @@
  * 权限的具体规则
  */
 
-namespace Permission;
+namespace StrackAuth\Rules;
 
 
 class Rule
@@ -35,6 +35,15 @@ class Rule
     {
         $this->_category = $_category;
         $this->setPermission($_permission);
+    }
+
+    /**
+     * @param $rule
+     */
+    public function init($rule)
+    {
+        $this->_category = $rule["category"];
+        $this->setPermission($rule["permission"]);
     }
 
     /**
@@ -124,7 +133,6 @@ class Rule
     {
         $this->_category = $category;
     }
-
 
 
     /**

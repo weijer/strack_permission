@@ -1,5 +1,5 @@
 <?php
-namespace Permission;
+namespace StrackAuth\Rules;
 
 // {'category': 'menu', 'name': '1111111111', 'permission':'view'}
 class ViewRule extends Rule
@@ -17,14 +17,6 @@ class ViewRule extends Rule
         $this->_name = $rule['name'];
     }
 
-    /**
-     * @param $rule
-     */
-    public function init($rule)
-    {
-        parent::init($rule);
-        $this->_name = $rule['name'];
-    }
 
     /**
      * @return mixed

@@ -1,5 +1,7 @@
 <?php
-namespace Permission;
+namespace StrackAuth\Manager;
+
+use StrackAuth\Rules\ViewRule;
 
 class ViewRuleManager
 {

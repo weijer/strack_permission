@@ -15,8 +15,8 @@
     },
     "autoload": {
         "psr-4": {
-            "Rule\\": "src/",
-            "RuleManager\\": "src/"
+            "StrackAuth\\Rule\\": "src/StrackAuth/Rules",
+            "StrackAuth\\Manager\\": "src/StrackAuth/Manager"
         }
     }
 }

@@ -1,5 +1,5 @@
 <?php
-namespace Permission;
+namespace StrackAuth\Manager;
 
 class ColumnRuleManager
 {
