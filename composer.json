@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "casbin/casbin": "^v0.2"
+        "casbin/casbin": "dev-master"
     },
     "autoload": {
         "psr-4": {
