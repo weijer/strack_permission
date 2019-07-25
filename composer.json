@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "casbin/casbin": "0.*"
+        "casbin/casbin": "^v0.2"
     },
     "autoload": {
         "psr-4": {
